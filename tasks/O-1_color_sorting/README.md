@@ -1,4 +1,4 @@
-# Color Sorting Task Data Generator 🎨
+# O-1 Color Sorting Task Data Generator 🎨
 
 A data generator for creating synthetic "Color Sorting" reasoning tasks. Objects (colored blocks) must be sorted into containers that match their colors.
 

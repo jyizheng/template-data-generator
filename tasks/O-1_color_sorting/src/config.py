@@ -22,7 +22,7 @@ class TaskConfig(GenerationConfig):
     """
     
     # Override defaults
-    domain: str = Field(default="color_sorting")
+    domain: str = Field(default="O-1_color_sorting")
     image_size: tuple[int, int] = Field(default=(600, 400))
     
     # Video settings

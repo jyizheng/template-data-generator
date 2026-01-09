@@ -14,7 +14,7 @@ class TaskConfig(GenerationConfig):
     """Configuration for path planning task generation."""
     
     # Domain identifier
-    domain: str = "path_planning"
+    domain: str = "G-3_path_planning"
     
     # Grid settings
     grid_width: int = Field(

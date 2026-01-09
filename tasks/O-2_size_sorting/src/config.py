@@ -14,7 +14,7 @@ class TaskConfig(GenerationConfig):
     """Configuration for size sorting task generation."""
     
     # Domain identifier
-    domain: str = "size_sorting"
+    domain: str = "O-2_size_sorting"
     
     # Image settings
     image_size: tuple[int, int] = Field(

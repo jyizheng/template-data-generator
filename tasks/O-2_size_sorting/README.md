@@ -1,4 +1,4 @@
-# Size Sorting Task Generator
+# O-2 Size Sorting Task Generator
 
 A visual reasoning task generator that creates image pairs showing bars being sorted by height.
 
@@ -70,11 +70,11 @@ python examples/generate.py --output ./output --generate-videos
 ```
 output/
 ├── images/
-│   ├── size_sorting_0000_input.png
-│   ├── size_sorting_0000_output.png
+│   ├── O-2_size_sorting_0000_input.png
+│   ├── O-2_size_sorting_0000_output.png
 │   └── ...
 ├── videos/  (if enabled)
-│   ├── size_sorting_0000_ground_truth.mp4
+│   ├── O-2_size_sorting_0000_ground_truth.mp4
 │   └── ...
 └── metadata.json
 ```
@@ -82,7 +82,7 @@ output/
 ## Project Structure
 
 ```
-size_sorting/
+O-2_size_sorting/
 ├── core/               # Core utilities (copied from main project)
 │   ├── base_generator.py
 │   ├── schemas.py

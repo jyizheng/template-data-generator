@@ -131,7 +131,7 @@ Examples:
     # Generate task pairs
     print("Generating task pairs...")
     for i in range(args.num_tasks):
-        task_id = f"path_planning_{i:04d}"
+        task_id = f"G-3_path_planning_{i:04d}"
         task_pair = generator.generate_task_pair(task_id)
         writer.write(task_pair)
         print(f"  [{i+1}/{args.num_tasks}] Generated {task_id}")

@@ -1,4 +1,4 @@
-# Path Planning Task Generator
+# G-3 Path Planning Task Generator
 
 A visual reasoning task generator that creates image pairs showing pathfinding through obstacle grids.
 
@@ -71,11 +71,11 @@ python examples/generate.py --output ./output --obstacle-density 0.3 --generate-
 ```
 output/
 ├── images/
-│   ├── path_planning_0000_input.png
-│   ├── path_planning_0000_output.png
+│   ├── G-3_path_planning_0000_input.png
+│   ├── G-3_path_planning_0000_output.png
 │   └── ...
 ├── videos/  (if enabled)
-│   ├── path_planning_0000_ground_truth.mp4
+│   ├── G-3_path_planning_0000_ground_truth.mp4
 │   └── ...
 └── metadata.json
 ```
@@ -83,7 +83,7 @@ output/
 ## Project Structure
 
 ```
-path_planning/
+G-3_path_planning/
 ├── core/               # Core utilities (copied from main project)
 │   ├── base_generator.py
 │   ├── schemas.py
